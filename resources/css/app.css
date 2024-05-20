@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px ;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+}
+
+.logo-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.login {
+    background: linear-gradient(to right, #0080EB, #1DB7EB);
+    color: white;
+    height: 550px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-right: 20px; 
+}
+.login-section{
+        border: 1px solid black; /* Corrigido o valor 'color' para 'solid' */
+        background-color: white;
+        color: black;
+        align-items: center;
+        padding: 20px;
+        border-radius: 20px;
+        width: 600px;
+        height: 350px;
+        margin-left: 800px;
+        margin-bottom: 20px;
+}
+
+.logo-image {
+    height: 150px;
+    width: 150px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ddd;
+}
+
+.button_cadastro {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button_cadastro:hover {
+    background-color: #45a049;
+}
+
+.intro-section, .login-section, .info-section, .suggestion-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007B9A;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ddd;
+}
