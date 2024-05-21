@@ -38,5 +38,4 @@
         <li>Oferecemos uma experiência simples e conveniente, tanto para clientes quanto para prestadores de serviços.</li>
         <li>Valorizamos a qualidade, a transparência e a confiança em todas as nossas operações.</li>
     </ul>
-    <p>A LTO Localizador de Trabalho Online está comprometida em facilitar a vida das pessoas, conectando quem precisa de serviços gerais a profissionais qualificados e confiáveis. Junte-se a nós e faça parte dessa comunidade!</p>
-    
+
