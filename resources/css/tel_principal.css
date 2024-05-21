@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 .header-container {
@@ -10,7 +10,51 @@ body {
     align-items: center;
     padding: 10px 20px;
     background-color: white;
-    color: black;
+    margin-left: 100px;
+    height: 100px;
+}
+
+.logo-image {
+    height: 200px;
+    width: 200px;
+
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    margin-right: 500px;
+}
+
+.nav-link {
+    color:#007B9A;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #e8e5e5;
+}
+
+.button_cadastro {
+    background-color: #ffffff; /* Green */
+    color: #007B9A;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid 1px;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+    margin-right: 75px;
+    height: 60px;
+    width: 200px;
+}
+
+.button_cadastro:hover {
+    background-color: #0080EB;
+    color: #ffffff;
 }
 
 .login{
@@ -22,58 +66,49 @@ body {
 .intro-section{
     text-align: center;
     color: white;
-    
+    border-left: 2px solid;
+    margin-left:  120px;
+    width: 600px;
+    height: 200px;
+}
+.texto_contrua{
+    text-align: left;
+    border-left: 4px solid color white;
+    margin-top: 10px;
 }
 .login-section{
     text-align: center;
-    border: 1px color black;
+    border: 1px color rgb(33, 118, 244);
     background-color: white;
     padding: 20px;
     border-radius: 20px;
-    width: 600px;
+    width: 400px;
     height: 300px;
-    margin-left: 800px;
-
+    margin-left: 250px;
+    color: #939393;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
-
-.logo-image {
-    height: 150px;
-    width: 150px;
-
-}
-
-.navigation {
+.email{
     display: flex;
-    gap: 40px;
+    margin-top: 30px;
+    margin-left: 35px;
+    
+}
+.imp-1{
+    display: flex;
+    margin-left:15px ;
+    border: 1px solid color #939393;
+    height: 50px;
+    width: 370px;
+    border-radius: 30px;
 }
 
-.nav-link {
-    color:#007B9A;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
 
-.nav-link:hover {
-    color: #d8d8d8;
-}
 
-.button_cadastro {
-    background-color: #ffffff; /* Green */
-    color: #007B9A;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    border: solid 1px;
-    border-radius: 15px;
-    transition: background-color 0.3s;
-}
 
-.button_cadastro:hover {
-    background-color: #dedada;
-    color: #080a0a;
-}
+
+
 
 .intro-section, .login-section, .info-section, .suggestion-section {
     padding: 20px;
@@ -102,7 +137,7 @@ body {
 }
 
 button {
-    background-color: #008CBA; /* Blue */
+    background-color: #0180EB; /* Blue */
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -115,7 +150,7 @@ button {
 }
 
 button:hover {
-    background-color: #007B9A;
+    background-color: #3ad4fa;
 }
 
 .footer {
