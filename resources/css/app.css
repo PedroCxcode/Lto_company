@@ -1,80 +1,78 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #f4f4f4;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 150px ;
     padding: 10px 20px;
-    background-color: #ffffff;
-    color: rgb(255, 255, 255);
+    background-color: white;
+    color: black;
 }
 
-.logo-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-.login {
+.login{
     background: linear-gradient(to right, #0080EB, #1DB7EB);
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+.intro-section{
+    text-align: center;
     color: white;
-    height: 550px;
-    margin-top: 20px;
-    padding: 10px;
-    margin-right: 20px; 
+    
 }
 .login-section{
-        border: 1px solid black; /* Corrigido o valor 'color' para 'solid' */
-        background-color: white;
-        color: black;
-        align-items: center;
-        padding: 20px;
-        border-radius: 20px;
-        width: 600px;
-        height: 350px;
-        margin-left: 800px;
-        margin-bottom: 20px;
+    text-align: center;
+    border: 1px color black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin-left: 800px;
+
 }
 
 .logo-image {
     height: 150px;
     width: 150px;
+
 }
 
 .navigation {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .nav-link {
-    color: black;
+    color:#007B9A;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #ddd;
+    color: #d8d8d8;
 }
 
 .button_cadastro {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: #ffffff; /* Green */
+    color: #007B9A;
     padding: 10px 20px;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    border: none;
-    border-radius: 4px;
+    border: solid 1px;
+    border-radius: 15px;
     transition: background-color 0.3s;
 }
 
 .button_cadastro:hover {
-    background-color: #45a049;
+    background-color: #dedada;
+    color: #080a0a;
 }
 
 .intro-section, .login-section, .info-section, .suggestion-section {
@@ -89,7 +87,7 @@ body {
 }
 
 .info-box {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
